@@ -1,7 +1,9 @@
-function Juft(param) {
-    
-    for(let i=0; i<=param; i++){
-       if(i%2==0){return i}
+function Juft(son) {
+    for(let i = 0; i <= son; i++){
+     if(son % i == 0){ i % 2 == 0 ? console.log(i) :  null}
     }
 }
-console.log(Juft(10));
+Juft(36)
+
+//(a % i == 0)
+//if(i%2==0){ console.log(i)}
